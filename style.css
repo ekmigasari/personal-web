@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-amber-50 font-mono;
+  }
+  h1 {
+    @apply text-black text-2xl font-bold uppercase;
+  }
+  h2 {
+    @apply text-black text-lg font-bold;
+  }
+  p {
+    @apply text-black text-sm font-normal leading-5;
+  }
+  img {
+    @apply border-4 border-black shrink-0;
+  }
+}
+
+@layer components {
+  .tag {
+    @apply border-2 border-black rounded inline-flex px-1 py-0.5 shadow-little;
+  }
+  .boxTextProfile {
+    @apply flex-col justify-center items-start gap-1 inline-flex px-4 py-2 self-stretch border-2 border-black;
+  }
+  .boxTextCard {
+    @apply flex-col justify-center items-start gap-1 inline-flex;
+  }
+  .profile {
+    @apply bg-custom1 border-2 border-black justify-start items-start inline-flex;
+  }
+  .card {
+    @apply inline-flex justify-start items-start border-4 border-black p-4 gap-4 hover:scale-105 hover:rounded-xl active:scale-95 active:opacity-80 cursor-pointer;
+  }
+}

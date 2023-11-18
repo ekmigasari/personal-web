@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./style.css -o ./dist/globals.css --watch",
+    "tailwind": "npx tailwindcss -i ./style.css -o ./globals.css --watch",
     "dev": "concurrently \"vite\" \"npm run tailwind\"",
     "build": "vite build",
     "preview": "vite preview"

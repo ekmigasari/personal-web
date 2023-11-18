@@ -652,9 +652,8 @@ img {
   grid-column: span 2 / span 2;
 }
 
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
+.m-auto {
+  margin: auto;
 }
 
 .my-12 {
@@ -674,8 +673,8 @@ img {
   max-width: 48rem;
 }
 
-.shrink {
-  flex-shrink: 1;
+.shrink-0 {
+  flex-shrink: 0;
 }
 
 .grow {
@@ -801,10 +800,6 @@ img {
 
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
-  }
-
-  .lg\:m-auto {
-    margin: auto;
   }
 
   .lg\:grid-cols-3 {
